@@ -33,7 +33,7 @@
    <meta http-equiv=”cache-control” content=”no-cache”>
    <meta http-equiv=”expires” content=”0″>
 
-   
+
 
 4. ### `<img>`的`title`和`alt`有什么区别
 
@@ -73,8 +73,8 @@
     - 行内元素有：`a b span img input select strong`
     - 块级元素有：`div ul ol li dl dt dd h1 h2 h3 h4… p`
     - 空元素：`<br> <hr> <img> <input> <link> <meta>`
-    - 行内元素不可以设置宽高，不独占一行
-    - 块级元素可以设置宽高，独占一行
+    - 行内元素不可以设置宽高，不独占一行，行内元素水平方向margin 和 padding有效，竖直方向无效；行内元素只包含数据和其他行内元素。
+    - 块级元素可以设置宽高，独占一行，块级元素可以设置margin 和 padding；块级元素可包含行内元素和其他块级元素
 
 11. ### HTML全局属性(global attribute)有哪些
 
